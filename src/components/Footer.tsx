@@ -53,15 +53,19 @@ export default function Footer() {
                 className="text-gray-300 hover:text-white transition-colors">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="https://x.com/AdBotInsights?t=0IioHfBlji0Fa_BO2WhpQA&s=09" target="_blank" rel="noopener noreferrer"
+
+              <a href="https://x.com/AdBotInsights?t=X5s7HZr7Wme6QZajRqiJBQ&s=08" target="_blank" rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="www.linkedin.com/in/t-efeosa" target="_blank" rel="noopener noreferrer"
+              <a href="http://www.linkedin.com/in/t-efeosa" target="_blank" rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="mailto: tydomet@gmail.com"
+              <a href="mailto:tydomet@gmail.com"
+
+
+
                 className="text-gray-300 hover:text-white transition-colors">
                 <Mail className="h-6 w-6" />
               </a>
