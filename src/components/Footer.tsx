@@ -49,19 +49,19 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/goldenomet" target="_blank" rel="noopener noreferrer" 
                 className="text-gray-300 hover:text-white transition-colors">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://x.com/AdBotInsights?t=0IioHfBlji0Fa_BO2WhpQA&s=09" target="_blank" rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="www.linkedin.com/in/t-efeosa" target="_blank" rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="mailto:contact@example.com"
+              <a href="mailto: tydomet@gmail.com"
                 className="text-gray-300 hover:text-white transition-colors">
                 <Mail className="h-6 w-6" />
               </a>
