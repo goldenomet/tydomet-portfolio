@@ -76,20 +76,24 @@ export default function Footer() {
           <div className="transform hover:scale-105 transition-transform duration-300">
             <h3 className="text-white font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
-                className="text-gray-300 hover:text-pink-400 transition-all duration-300 transform hover:scale-110">
+              <a href="https://github.com/goldenomet" target="_blank" rel="noopener noreferrer" 
+                className="text-gray-300 hover:text-white transition-colors">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-                className="text-gray-300 hover:text-pink-400 transition-all duration-300 transform hover:scale-110">
+
+              <a href="https://x.com/AdBotInsights?t=X5s7HZr7Wme6QZajRqiJBQ&s=08" target="_blank" rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition-colors">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-                className="text-gray-300 hover:text-pink-400 transition-all duration-300 transform hover:scale-110">
+              <a href="http://www.linkedin.com/in/t-efeosa" target="_blank" rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="mailto:contact@example.com"
-                className="text-gray-300 hover:text-pink-400 transition-all duration-300 transform hover:scale-110">
+              <a href="mailto:tydomet@gmail.com"
+
+
+
+                className="text-gray-300 hover:text-white transition-colors">
                 <Mail className="h-6 w-6" />
               </a>
             </div>

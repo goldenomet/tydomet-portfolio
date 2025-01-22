@@ -13,7 +13,7 @@ export default function Home() {
             {/* Text Content */}
             <div className="flex-1 text-center lg:text-left">
               <h1 className="text-6xl lg:text-8xl font-bold mb-6 tracking-tight">
-                <span className="gradient-text">TYDOMET</span>
+                <span className="gradient-text">Theophilus Emare</span>
               </h1>
               <div className="flex items-center justify-center lg:justify-start mb-8 space-x-4">
                 <div className="flex -space-x-2">
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="flex-1 relative">
               <div className="relative w-[500px] h-[500px] rounded-full overflow-hidden transform rotate-6 hover:rotate-0 transition-transform duration-500">
                 <img
-                  src="/src/assets/profile.jpg"
+                  src="/src/assets/profile.jpeg"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
                 />
