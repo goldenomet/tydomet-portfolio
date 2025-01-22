@@ -1,7 +1,6 @@
 import { Candy, Sparkles, Palette, Code2, MonitorSmartphone, GraduationCap, BookOpen, Coffee } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import DonationBox from '../components/DonationBox';
-import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -50,12 +49,12 @@ export default function Home() {
                 >
                   Get in touch
                 </Link>
-                <a 
-                  href="#portfolio" 
+                <Link 
+                  to="/portfolio" 
                   className="px-8 py-4 rounded-full border-2 border-white/20 hover:border-white/40 text-white font-semibold transition-all duration-300"
                 >
                   View Portfolio
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -84,7 +83,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Rest of the component remains the same */}
       {/* Skills Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">My Skills</h2>
@@ -208,9 +206,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }

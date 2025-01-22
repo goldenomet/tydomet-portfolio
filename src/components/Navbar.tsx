@@ -1,4 +1,4 @@
-import { Candy, Menu, X } from 'lucide-react';
+import { Candy, Menu, X, Heart } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -37,9 +37,21 @@ export default function Navbar() {
               <Link to="/about" className="nav-link text-white hover:text-pink-300 px-3 py-2 text-sm font-medium transition-colors duration-300">
                 About
               </Link>
+              <Link to="/portfolio" className="nav-link text-white hover:text-pink-300 px-3 py-2 text-sm font-medium transition-colors duration-300">
+                Portfolio
+              </Link>
               <Link to="/contact" className="nav-link text-white hover:text-pink-300 px-3 py-2 text-sm font-medium transition-colors duration-300">
                 Contact
               </Link>
+              <a
+                href="https://flutterwave.com/donate/fb93m1ohppej"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-pink-600 hover:bg-pink-700 transition-all duration-300 animate-bounce hover:animate-none"
+              >
+                <Heart className="h-4 w-4 mr-2" />
+                Donate
+              </a>
             </div>
           </div>
           <div className="md:hidden">
@@ -71,12 +83,29 @@ export default function Navbar() {
               About
             </Link>
             <Link
+              to="/portfolio"
+              className="nav-link block px-3 py-2 text-base font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Portfolio
+            </Link>
+            <Link
               to="/contact"
               className="nav-link block px-3 py-2 text-base font-medium"
               onClick={() => setIsOpen(false)}
             >
               Contact
             </Link>
+            <a
+              href="https://flutterwave.com/donate/fb93m1ohppej"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block px-3 py-2 text-base font-medium text-white hover:text-pink-300 transition-colors duration-300"
+              onClick={() => setIsOpen(false)}
+            >
+              <Heart className="h-4 w-4 inline mr-2" />
+              Donate
+            </a>
           </div>
         </div>
       )}

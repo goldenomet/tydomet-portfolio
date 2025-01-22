@@ -26,6 +26,11 @@
   animation: spin-slow 12s linear infinite;
 }
 
+.animate-gradient-shift {
+  animation: gradient-shift 15s ease infinite;
+  background-size: 200% 200%;
+}
+
 .gradient-text {
   background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #96C93D);
   background-size: 300% 300%;
