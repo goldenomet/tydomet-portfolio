@@ -62,7 +62,7 @@ export default function Home() {
             <div className="flex-1 relative">
               <div className="relative w-[500px] h-[500px] rounded-full overflow-hidden transform rotate-6 hover:rotate-0 transition-transform duration-500">
                 <img
-                  src="/src/assets/profile.jpeg"
+                  src="/src/assets/profile1.jpeg"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
                 />
