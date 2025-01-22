@@ -8,8 +8,8 @@ export default function About() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <div className="md:flex items-center space-y-6 md:space-y-0 md:space-x-12">
             <img
-              src="/src/assets/profile1.jpg"
-              alt="Profile"
+              src="/src/assets/profile1.jpeg"
+              alt="Profile1"
               className="w-48 h-48 rounded-full object-cover mx-auto md:mx-0"
             />
             <div>
