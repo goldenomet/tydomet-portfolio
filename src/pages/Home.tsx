@@ -2,7 +2,7 @@ import { Sparkles, Palette, Code2, MonitorSmartphone, GraduationCap, BookOpen, C
 import { Link } from 'react-router-dom';
 import DonationBox from '../components/DonationBox';
 // Add this import at the top of the file
-import profileImage from '../assets/profile.jpg';
+import profileImage from '../assets/profile1.jpg';
 
 export default function Home() {
   return (
