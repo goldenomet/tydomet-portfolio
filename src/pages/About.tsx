@@ -1,6 +1,6 @@
 import { GraduationCap, Code, Palette } from 'lucide-react';
 // Add this import at the top of the file
-import profileImage from '../assets/profile.jpg';
+import profileImage from '../assets/profile1.jpg';
 
 
 export default function About() {
@@ -11,7 +11,7 @@ export default function About() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <div className="md:flex items-center space-y-6 md:space-y-0 md:space-x-12">
             <img
-              src={profileImage}
+              src={profile1Image}
               alt="Profiles"
               className="w-48 h-48 rounded-full object-cover mx-auto md:mx-0"
             />
