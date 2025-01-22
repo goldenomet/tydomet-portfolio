@@ -11,7 +11,7 @@ export default function About() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <div className="md:flex items-center space-y-6 md:space-y-0 md:space-x-12">
             <img
-              src={profile1Image}
+              src={profileImage}
               alt="Profiles"
               className="w-48 h-48 rounded-full object-cover mx-auto md:mx-0"
             />
